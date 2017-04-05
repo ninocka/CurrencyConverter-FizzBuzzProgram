@@ -36,7 +36,7 @@ def play():
 print "Hello! This is UnitConverter. I convert EUR to USD and USD to EUR."
 
 while True:
-    new_conversion = str(raw_input("Would you like to do a conversion? Choose 'y' for yes and 'n' for no >>> "))
+    new_conversion = str(raw_input("Would you like to make a conversion? Choose 'y' for yes and 'n' for no >>> "))
     if new_conversion.lower() == "y":
         play()
 
